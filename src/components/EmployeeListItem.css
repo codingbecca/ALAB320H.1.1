@@ -1,0 +1,21 @@
+.listItem{
+    display: flex;
+    padding: 0.5em;
+    align-items: center;
+}
+
+.avatar {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    margin: 1em;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.title{
+    color: grey;
+}
