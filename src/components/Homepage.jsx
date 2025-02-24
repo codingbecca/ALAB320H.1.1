@@ -1,7 +1,11 @@
 import EmployeeList from "./EmployeeList";
+import Header from "./Header";
 
 export default function Homepage() {
-    return (
-        <EmployeeList />
-    )
+  return (
+    <>
+      <Header />
+      <EmployeeList />
+    </>
+  );
 }
